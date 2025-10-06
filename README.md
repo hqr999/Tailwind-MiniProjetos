@@ -1,3 +1,5 @@
-# Repositório Template para uso básico do Tailwind
+# Lista de Pequenos Projetos
 
-Este repositório contém os arquivos básicos e as configurações básicas para usar o Tailwind com o node.
+Todos os projetos estão na pasta Projetos, e eles são os seguintes:
+
+*   Cartão de Email   
