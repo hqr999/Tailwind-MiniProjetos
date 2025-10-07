@@ -1,1 +1,14 @@
+/* 1. Importe as fontes do Google Fonts - **DEVE SER O PRIMEIRO** */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&family=Rokkitt:wght@600;700&display=swap');
+
+/* 2. Importe o Tailwind CSS v4 */
 @import "tailwindcss";
+
+/* 3. Configure as fontes usando a diretiva @theme */
+@theme {
+  /* Sobrescreve a fonte 'sans' para usar 'Mulish' */
+  --font-sans: 'Mulish', sans-serif;
+  
+  /* Sobrescreve a fonte 'mono' para usar 'Rokkitt' */
+  --font-mono: 'Rokkitt', monospace;
+}
